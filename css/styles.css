@@ -1,0 +1,89 @@
+/* боди #FFFFFF */
+/* цвет основного текста #757575 */
+/* цвет фона приветствия и футер #2F303A */
+/* хедер #FFFFFF */
+/* цвет вторичного текста #212121 */
+/* logo #2196F3  #000000 */
+/* акцент #2196F3 */
+/* почта и телефон rgba(255, 255, 255, 0.6) */
+/* адрес и приветствие #FFFFFF */
+/* команда фон #F5F4FA */
+/* ___________________________ */
+.body-page {
+  background-color: #ffffff;
+  color: #757575;
+}
+ul {
+  list-style: none;
+}
+/* логотип */
+.logo {
+  color: #000000;
+}
+.logo:focus,
+.logo:hover {
+  color: #2196f3;
+}
+.logostyle {
+  color: #2196f3;
+}
+.logostyle:hover,
+.logostyle:focus {
+  color: #000000;
+}
+/* навигация */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* контакты */
+.contacts-link {
+  color: #757575;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+/* Приветствие */
+.greeting {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.greeting-butt {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Список преимуществ */
+.section-list h3 {
+  color: #212121;
+}
+/* чем заняты */
+.section-title {
+  color: #212121;
+}
+/* Команда молодости нашей */
+.body-page .profile-list {
+  background-color: #f5f4fa;
+}
+.profile h3 {
+  color: #212121;
+}
+/* Футер */
+.footer-section {
+  background-color: #2f303a;
+}
+.foot-logo {
+  color: #ffffff;
+}
+.footstyle {
+  color: #2196f3;
+}
+.address-text {
+  color: #ffffff;
+}
+.footer-section .link-foot {
+  color: rgba(255, 255, 255, 0.6);
+}
