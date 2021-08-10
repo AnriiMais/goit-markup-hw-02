@@ -24,13 +24,17 @@
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
-  font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Roboto;
+  font-weight: 400;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
 }
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 /* логотип */
 .logo {
@@ -150,9 +154,10 @@ ul {
 .foot-logo {
   color: #ffffff;
 
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1, 19;
 }
 .footstyle {
   color: #2196f3;
@@ -191,6 +196,16 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+}
+.filter .btn.second:focus,
+.filter .btn.primary:focus {
+  color: var(--btn-prime-color);
+  background-color: var(--accent-color);
+}
+.filter .btn.second:hover,
+.filter .btn.primary:hover {
+  color: var(--btn-prime-color);
+  background-color: var(--accent-color);
 }
 .work-list .item-title {
   color: var(--title-text-color);
