@@ -121,6 +121,7 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 /* чем заняты */
 .section-title {
@@ -165,6 +166,9 @@ a {
 .address-text {
   color: #ffffff;
 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
