@@ -112,6 +112,8 @@ a {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
 }
 /* Список преимуществ */
 
